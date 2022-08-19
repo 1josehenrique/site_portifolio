@@ -1,0 +1,98 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+    margin: 30px;
+}
+
+#inicio{
+    border: 2px solid #80DEEA;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+#inicio:hover{
+    background-color: #80DEEA;
+    color: white;
+    font-weight: bolder;
+}
+
+#projeto{
+    border: 2px solid #80DEEA;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+#projeto:hover{
+    background-color: #80DEEA;
+    color: white;
+    font-weight: bolder;
+}
+
+#contato{
+    border: 2px solid #80DEEA;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+#contato:hover{
+    background-color: #80DEEA;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: #80DEEA;
+    transition: 0.2s all;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10;
+}
+
+h1{
+    font-weight: 200;
+    line-height: 10px;
+}
+
+h2{
+    line-height: 10px;
+    font-size: 38px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+aside{
+    margin-top: 75px;
+}
+
+p{
+    margin-top: 50px;
+    max-width: 500px;
+    font-weight: bolder;
+}
+spam{
+    color: #80DEEA;
+}
