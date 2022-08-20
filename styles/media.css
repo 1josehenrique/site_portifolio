@@ -1,4 +1,4 @@
-@media screen and (max-width: 760px){
+@media screen and (max-width: 500px){
     header{
         flex-direction: column;
     }
@@ -9,10 +9,30 @@
 
     h2{
         font-size: 38px;
-        margin: 0 auto;
+        font-display: flex;
+        margin-left: 100px;
+        margin-right: 50px;  
     }
 
     p{
-        margin: 0 auto;
+        margin-left: 100px;
+        margin-right: 50px;        
+    }
+
+    img{
+        transform: translateX(0px);
+        animation: float 4s ease-in-out infinite;
+    }
+    
+    @keyframes float {
+        0% {
+            transform: translateX(0px);
+        }
+        50% {
+            transform: translateX(-30px);
+        }
+        100% {
+            transform: translateX(0px);
+        }
     }
 }
