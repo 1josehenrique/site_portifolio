@@ -7,6 +7,11 @@ body{
     padding: 15px;
 }
 
+#logo{
+    width: 200px;
+    margin-left: 10px;
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -17,49 +22,50 @@ header{
 li{
     display: inline-block;
     margin: 30px;
+    font-weight: bolder;
 }
 
-#inicio{
-    border: 2px solid #80DEEA;
+#home{
+    border: 2px solid #12B1C5;
     padding: 10px;
     border-radius: 15px;
     margin-left: 15px;
 }
 
-#inicio:hover{
-    background-color: #80DEEA;
+#home:hover{
+    background-color: #12B1C5;
     color: white;
     font-weight: bolder;
 }
 
 #projeto{
-    border: 2px solid #80DEEA;
+    border: 2px solid #12B1C5;
     padding: 10px;
     border-radius: 15px;
     margin-left: 15px;
 }
 
 #projeto:hover{
-    background-color: #80DEEA;
+    background-color: #12B1C5;
     color: white;
     font-weight: bolder;
 }
 
 #contato{
-    border: 2px solid #80DEEA;
+    border: 2px solid #12B1C5;
     padding: 10px;
     border-radius: 15px;
     margin-left: 15px;
 }
 
 #contato:hover{
-    background-color: #80DEEA;
+    background-color: #12B1C5;
     color: white;
     font-weight: bolder;
 }
 
 a:hover{
-    color: #80DEEA;
+    color: #12B1C5;
     transition: 0.2s all;
 }
 
@@ -94,10 +100,10 @@ p{
     font-weight: bolder;
 }
 spam{
-    color: #80DEEA;
+    color: #12B1C5;
 }
 
-img{
+#front{
     transform: translateY(0px);
     animation: float 3s ease-in-out infinite;
 }
