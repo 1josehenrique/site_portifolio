@@ -1,121 +1,100 @@
+html{
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-size: 62.5%;
+}
+
 body{
-    background-color: white;
-    color: rgb(34, 34, 34);
-    font-family: 'Poppins', sans-serif;
-    max-width: 1200px;
+    font-family: "poppins", sans-serif;
+    font-size: 1.6rem;
+}
+
+footer,
+section{
+    padding: 5rem;
+    max-width: 96rem;
     margin: 0 auto;
-    padding: 15px;
 }
 
-#logo{
-    width: 200px;
-    margin-left: 10px;
-}
-
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-li{
-    display: inline-block;
-    margin: 30px;
-    font-weight: bolder;
-}
-
-#home{
-    border: 2px solid #12B1C5;
-    padding: 10px;
-    border-radius: 15px;
-    margin-left: 15px;
-}
-
-#home:hover{
-    background-color: #12B1C5;
-    color: white;
-    font-weight: bolder;
-}
-
-#projeto{
-    border: 2px solid #12B1C5;
-    padding: 10px;
-    border-radius: 15px;
-    margin-left: 15px;
-}
-
-#projeto:hover{
-    background-color: #12B1C5;
-    color: white;
-    font-weight: bolder;
-}
-
-#contato{
-    border: 2px solid #12B1C5;
-    padding: 10px;
-    border-radius: 15px;
-    margin-left: 15px;
-}
-
-#contato:hover{
-    background-color: #12B1C5;
-    color: white;
-    font-weight: bolder;
-}
-
-a:hover{
-    color: #12B1C5;
-    transition: 0.2s all;
-}
-
-#title{
+footer{
     flex-direction: column;
-    line-height: 10;
 }
 
-h1{
-    font-weight: 200;
-    line-height: 10px;
-}
-
-h2{
-    line-height: 10px;
-    font-size: 38px;
-}
-
-main{
+.itens-center{
     display: flex;
-    flex-direction: row;
-    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
-aside{
-    margin-top: 75px;
+.inspecionar{
+    border: 5px solid red;
 }
 
-p{
-    margin-top: 50px;
-    max-width: 500px;
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+.nav-links a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.links{
+    padding: 2rem 6rem;
+}
+
+.avatar{
+    border-radius: 100%;
+    width: 15.1875rem;
+    height: 15.1875rem;
+    margin-right: 6.25rem;
+}
+
+.main{
+    padding: 8.6875rem;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.button{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0.8125rem 1.25rem;
+    border-radius: 0.125rem;
+    text-decoration: none;
+}
+
+.main-title{
+    font-size: 2.375rem;
+}
+
+.main-description{
+    margin: 2.4375rem 0;
+}
+
+.about{
+    background-color: #ffffff;
+    color: #1e1e1e;
+}
+
+.about-description{
     font-weight: bolder;
 }
-spam{
-    color: #12B1C5;
+
+.project-image{
+    width: 24rem;
+    height: 24rem;
+    border-radius: 0.6rem;
+    margin-right: 2.5rem;
 }
 
-#front{
-    transform: translateY(0px);
-    animation: float 3s ease-in-out infinite;
+.project{
+    padding: 2rem 0;
 }
 
-@keyframes float {
-    0% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(-30px);
-    }
-    100% {
-        transform: translateY(0px);
-    }
+.icons{
+    display: flex;
+    gap: 2rem;
 }

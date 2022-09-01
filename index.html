@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,39 +18,69 @@
     <title>Landing Page</title>
 
 </head>
- <body>
-    <!--cabeçalho da Landing Page-->
-    <header>
-        <div>
-            <!--Nome da página-->
-            <img id="logo" src="./Components/images/José_ Henrique.gif" alt="logo">
+  <body>
+    <!--Aqui definimos a barra de menu-->
+    <div class="links">
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Projetos</a>
+            <a href="#">Contato</a>
         </div>
+    </div>
 
-        <!--Criação dos Menus em lista desordenada, seguido de um link encapsulado e com uma rota-->
-        <ul>
-            <a href="index.html"id="home"><li>Home</li></a>
-            <a href="projetos.html"id="projeto"><li>Projetos</li></a>
-            <a href="#"id="contato"><li>Contato</li></a>
-        </ul>
-        
-    </header>
-    
-    <!--Parte central do site-->
-    <main>
-        <!--Criação de uma tag semântica preenchido com textos ao lado esquerdo do site-->
-        <aside>
-            <h2><spam>Estudante de Engenharia</spam></h2>
-            <h2>de Software</h2>
-            <!--Criação de um parágrafo contendo as linguagens de programação que eu tenho mais afinidade-->
-            <p>Atualmente estou cursando o primeiro semestre de Engenharia de Software, tenho afinidade em HTML, CSS e JavaScript e estou sempre buscando mais conhecimento, este site é onde eu posto os meus projetos conforme eu vou aprendendo e me desenvolvendo na área</p>
-        </aside>
-
-        <!--Criação de uma tag semântica para onde será colocada imagens, que nesse caso será do lado direito-->
-        <article>
-            <img id="front" src="./Components/images/browser-g75f9352be_1280.png" alt="Front-End" width="700">
-        </article>
-
-    </main>
-
- </body>
+    <section class="main itens-center"> 
+        <img class="avatar" src="./Components/images/Screenshot_20211006-071541_Instagram.jpg" alt="rosto Henrique">
+        <div>
+            <h1 class="main-title">Oi, eu sou Henrique, <br> Desenvolvedor Front End</h1>
+            <p class="main-description">Atualmente estudo Engenharia de Software e tenho experiência através de projetos pessoais em HTML, CSS e JavaScript</p>
+            <a class="button" href="./Components/documents/José Henrique.pdf" target="_blank" rel="noopener noreferrer">Download do CV</a>
+        </div>
+    </section>
+    <div class="about">
+        <section class="itens-center">
+           <div>
+               <h2 class="about-title">Sobre mim</h2>
+               <p class="about-description"> Eu sou uma pessoa criativa, principalmente quando trabalho em equipe, não sou aquele que dá o pontapé inicial, mas aquele que consegue dar os passes certos e na hora certa durante a partida, gosto de tudo que envolva tecnologia, gosto de por em prática o que eu aprendo e tento fazer meus próprios projetos pessoais de programação, abasteço minha criatividade com bastante informação através de leituras e assistindo séries nos tempos livres</p>
+            </div>
+        </section>
+    </div>
+    <section>
+        <h2>Projetos</h2>
+        <div class="project itens-center">
+            <img class="project-image" src="./Components/images/Screenshot_20211006-071541_Instagram.jpg" alt="projeto 01">
+            <div>
+                <h3>Nome do projeto</h3>
+                <p>Fale sobre o projeto e as linguagens usadas - Fale sobre o projeto e as linguagens usadas - Fale sobre o projeto e as linguagens usadas</p>
+            </div>
+        </div>
+        <div class="project itens-center">
+            <img class="project-image" src="./Components/images/Screenshot_20211006-071541_Instagram.jpg" alt="projeto 01">
+            <div>
+                <h3>Nome do projeto</h3>
+                <p>Fale sobre o projeto e as linguagens usadas - Fale sobre o projeto e as linguagens usadas - Fale sobre o projeto e as linguagens usadas</p>
+            </div>
+        </div>
+        <div class="project itens-center">
+            <img class="project-image" src="./Components/images/Screenshot_20211006-071541_Instagram.jpg" alt="projeto 01">
+            <div>
+                <h3>Nome do projeto</h3>
+                <p>Fale sobre o projeto e as linguagens usadas - Fale sobre o projeto e as linguagens usadas - Fale sobre o projeto e as linguagens usadas</p>
+            </div>
+        </div>
+    </section>
+    <footer class="itens-center">
+        <div class="icons">
+            <a href="https://github.com/1josehenrique" target="_blank" rel="noopener noreferrer">
+                <img  class="icons1" src="./Components/images/github.png" alt="github-icon">
+            </a>
+            <a href="https://www.instagram.com/1josehenrique.jh/" target="_blank" rel="noopener noreferrer">
+                <img  class="icons2" src="./Components/images/instagram.png" alt="instagram-icon">
+            </a>
+            <a href="https://www.linkedin.com/in/1henrique/" target="_blank" rel="noopener noreferrer">
+                <img  class="icons3" src="./Components/images/linkedin.png" alt="linkedin-icon">
+            </a>
+        </div>
+        <p>Feito por José Henrique</p>
+    </footer>
+  </body>
 </html>
